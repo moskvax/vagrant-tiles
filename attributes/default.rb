@@ -9,7 +9,7 @@ default[:pg][:conn_info] = {
   :password => node['postgresql']['password']['postgres']
 }
 
-default[:git][:vector_datasource][:url] = 'https://github.com/moskvax/vector-datasource.git'
+default[:git][:vector_datasource][:url] = 'https://github.com/mapzen/vector-datasource.git'
 default[:git][:vector_datasource][:branch] = 'master'
 default[:git][:vector_datasource][:path] = "#{node[:path]}/opt/vector-datasource"
 
